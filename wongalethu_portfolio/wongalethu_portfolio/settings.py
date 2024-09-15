@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'wongalethu_portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'myproject_db',           # The name of your database
-        'USER': 'root',           # Your MySQL username
-        'PASSWORD': 'Jesus208109404@',            # Your MySQL password
-        'HOST': 'localhost',               # Or use '127.0.0.1' for local MySQL
-        'PORT': '3306',                    # The default MySQL port is 3306
+        'NAME': 'my_project_db',           
+        'USER': 'root',           
+        'PASSWORD': 'Jesus208109404@',            
+        'HOST': 'localhost',               
+        'PORT': '3306',                    
     }
 }
 
